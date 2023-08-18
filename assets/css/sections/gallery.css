@@ -1,0 +1,171 @@
+/*** 
+
+====================================================================
+	Gallery Section
+====================================================================
+
+***/
+.gallery-section {
+    position: relative;
+    padding: 120px 0;
+    z-index: 1;
+    background-color: transparent;
+  }
+  .gallery-section .carousel-outer {
+    margin-left: -200px;
+    margin-right: -200px;
+  }
+  
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  .gallery-item img {
+    display: inline-block;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .gallery-item a {
+    position: relative;
+    display: block;
+  }
+  .gallery-item a:after, .gallery-item a:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    z-index: 1;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+    opacity: 0;
+    visibility: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: "linearicons-free";
+    color: #ffffff;
+    font-size: 42px;
+    content: "+";
+  }
+  .gallery-item a:after {
+    background: var(--gradient-2);
+  }
+  .gallery-item a:hover:after, .gallery-item a:hover:before {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+  }
+  .gallery-item a:hover:after {
+    opacity: 0.9;
+  }
+  .gallery-item:hover img {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    border-radius: 10px;
+  }
+  
+  .gallery-carousel .owl-nav,
+  .gallery-carousel .owl-dots {
+    display: none;
+  }
+  
+  /*** 
+  
+  ====================================================================
+      Gallery Section Two
+  ====================================================================
+  
+  ***/
+  .gallery-section-two {
+    position: relative;
+    padding: 120px 0;
+    z-index: 1;
+  }
+  
+  .gallery-item-two {
+    position: relative;
+    overflow: hidden;
+  }
+  .gallery-item-two .image-box {
+    position: relative;
+    overflow: hidden;
+  }
+  .gallery-item-two .image-box .image {
+    position: relative;
+    margin-bottom: 0;
+  }
+  .gallery-item-two .image-box .image:after, .gallery-item-two .image-box .image:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(var(--bg-theme-color1)));
+    background-image: linear-gradient(transparent, var(--bg-theme-color1));
+    z-index: 1;
+    content: "";
+    pointer-events: none;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+  }
+  .gallery-item-two .image-box .image:after {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(var(--bg-theme-color2)));
+    background-image: linear-gradient(transparent, var(--bg-theme-color2));
+    height: 0;
+    z-index: 1;
+  }
+  .gallery-item-two .image-box .image img {
+    display: inline-block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    min-height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .gallery-item-two .image-box .image a {
+    position: relative;
+    display: block;
+  }
+  .gallery-item-two:hover img {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .gallery-item-two:hover .image::before {
+    height: 0%;
+  }
+  .gallery-item-two:hover .image::after {
+    height: 100%;
+  }
+  .gallery-item-two .caption-box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 40px 40px;
+    width: 100%;
+    text-align: left;
+    z-index: 2;
+  }
+  .gallery-item-two .caption-box .title {
+    margin-bottom: 0;
+    color: #ffffff;
+  }
