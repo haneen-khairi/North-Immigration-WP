@@ -286,7 +286,7 @@ readers do not read off random characters that represent icons */
   content: "\f104"; }
 
 .fa-angle-right:before {
-  content: "\f105"; }
+  content: "\F231"; }
 
 .fa-angle-up:before {
   content: "\f106"; }

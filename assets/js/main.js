@@ -8,7 +8,7 @@
 			nav: true,
 			smartSpeed: 400,
 			autoplay: true,
-			navText: ['<span class="flaticon-left"></span>', '<span class="flaticon-right"></span>'],
+			navText: ['<span class="bi bi-arrow-left"></span>', '<span class="bi bi-arrow-right"></span>'],
 			responsive: {
 				0: {
 					items: 1
@@ -35,7 +35,7 @@
 			nav: false,
 			smartSpeed: 400,
 			autoplay: true,
-			navText: ['<span class="flaticon-left"></span>', '<span class="flaticon-right"></span>'],
+			navText: ['<span class="bi bi-arrow-left"></span>', '<span class="bi bi-arrow-right"></span>'],
 			responsive: {
 				0: {
 					items: 1
@@ -53,3 +53,32 @@
 		});
 	}
     // end gallery home page
+    // start partner carousel page
+	if ($('.partner-carousel').length) {
+		$('.partner-carousel').owlCarousel({
+			rtl: THEMEMASCOT.isRTL.check(),
+			loop: true,
+			margin: 50,
+			nav: true,
+			smartSpeed: 400,
+			autoplay: true, 
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 2
+				},
+				768: {
+					items: 2
+				},
+				1023: {
+					items: 3
+				},
+				1200: {
+					items: 4
+				}
+			}
+		});
+	}
+    // end partner carousel page

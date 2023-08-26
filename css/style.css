@@ -27,7 +27,7 @@
 24. News Section / Two / Three
 25. Main Footer
 **********************************************/
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 /*
  * typography.scss
@@ -1560,7 +1560,7 @@ Section Title
   position: absolute;
   left: 0;
   top: 0;
-  content: "/";
+  content: "|";
   color: var(--theme-color2);
 }
 .sec-title h1 {
@@ -3778,7 +3778,8 @@ Section Title
 .clients-section {
   position: relative;
   z-index: 1;
-  background: var(--gradient-2);
+  /* background: var(--gradient-2); */
+  opacity: 1;
 }
 .clients-section::before {
   position: absolute;
@@ -3786,7 +3787,7 @@ Section Title
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: url(../images/icons/pattern-5.png);
+  /* background-image: url(../assets/img/background/map-cta-countries.png); */
   content: "";
 }
 .clients-section.style-two {
@@ -4199,6 +4200,7 @@ Section Title
 }
 .why-choose-us .content-column .info-box .title {
   margin-bottom: 0;
+  padding-right: 60px;
 }
 .why-choose-us .content-column .info-box .read-more {
   position: absolute;
@@ -4240,7 +4242,7 @@ Section Title
   position: relative;
   margin-right: -260px;
   margin-left: -30px;
-  margin-top: -65px;
+  margin-top: 200px;
   margin-bottom: 0;
   text-align: right;
 }
@@ -7858,23 +7860,14 @@ Page Title
 .page-breadcrumb li {
   position: relative;
   display: inline-block;
-  margin-right: 12px;
-  padding-right: 13px;
+  margin-right: 12px; 
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
   text-transform: capitalize;
 }
-.page-breadcrumb li:after {
-  position: absolute;
-  content: "\f105";
-  right: -6px;
-  top: 1px;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 900;
-  font-family: "Font Awesome 5 Free";
-  color: #ffffff;
+.page-breadcrumb li i {
+margin-left:15px;
 }
 .page-breadcrumb li:last-child {
   padding-right: 0px;
@@ -10359,8 +10352,8 @@ Sidebar
   align-items: center;
 }
 .contact-details__info li .icon {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   background-color: var(--theme-color3);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10410,7 +10403,7 @@ Sidebar
   color: var(--notech-black);
 }
 .contact-details__info li + li {
-  margin-top: 19px;
+  margin-top: 5px;
 }
 
 /*--------------------------------------------------------------
@@ -10522,7 +10515,7 @@ Sidebar
   left: 0;
   top: 0;
   color: var(--theme-color2);
-  content: "/";
+  content: "|";
 }
 
 .main-footer .about-widget {
@@ -10754,4 +10747,14 @@ Sidebar
 }
 .footer-bottom .copyright-text a:hover {
   color: #ffffff;
+}
+.partner-carousel .owl-nav{
+  display: none;
+}
+.partner-carousel img{
+  width:150px!important;
+}
+.clients-section{
+background-color: #f2f2f2;
+z-index: 1;
 }

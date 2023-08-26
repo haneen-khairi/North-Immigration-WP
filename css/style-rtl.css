@@ -1696,7 +1696,7 @@ Main Header
   position: absolute;
   right: -3px;
   top: 0;
-  content: "/";
+  content: "|";
 }
 .header-top .useful-links li a {
   color: #808287;
@@ -1915,7 +1915,7 @@ Main Header
 }
 .main-menu .navigation > li > ul > li.dropdown > a:after {
   font-family: "Font Awesome 5 Free";
-  content: "\f105";
+  content: "\F231";
   position: absolute;
   left: 0;
   top: 11px;
@@ -2617,7 +2617,7 @@ Section Title
   position: absolute;
   right: 0;
   top: 0;
-  content: "/";
+  content: "|";
   color: var(--theme-color2);
 }
 .sec-title h1 {
@@ -5230,7 +5230,7 @@ Section Title
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: url(../images/icons/pattern-5.png);
+  background-image: url(../assets/img/background/map-cta-countries.png);
   content: "";
 }
 .clients-section.style-two {
@@ -5813,6 +5813,7 @@ Section Title
 }
 .why-choose-us .content-column .info-box .title {
   margin-bottom: 0;
+ 6
 }
 .why-choose-us .content-column .info-box .read-more {
   position: absolute;
@@ -5854,7 +5855,7 @@ Section Title
   position: relative;
   margin-left: -260px;
   margin-right: -30px;
-  margin-top: -65px;
+  margin-top: 200px;
   margin-bottom: 0;
   text-align: left;
 }
@@ -8045,7 +8046,7 @@ Section Title
   right: 0;
   top: 0;
   color: var(--theme-color2);
-  content: "/";
+  content: "|";
 }
 
 .main-footer .about-widget {
@@ -10075,7 +10076,7 @@ Page Title
 }
 .page-breadcrumb li:after {
   position: absolute;
-  content: "\f105";
+  content: "\F231";
   left: -6px;
   top: 1px;
   color: #ffffff;
@@ -12567,8 +12568,8 @@ Sidebar
   align-items: center;
 }
 .contact-details__info li .icon {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   background-color: var(--theme-color3);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12618,7 +12619,7 @@ Sidebar
   color: var(--notech-black);
 }
 .contact-details__info li + li {
-  margin-top: 19px;
+  margin-top: 5px;
 }
 
 /*--------------------------------------------------------------
@@ -12730,7 +12731,7 @@ Sidebar
   right: 0;
   top: 0;
   color: var(--theme-color2);
-  content: "/";
+  content: "|";
 }
 
 .main-footer .about-widget {

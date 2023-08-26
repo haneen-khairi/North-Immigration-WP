@@ -113,7 +113,7 @@ var THEMEMASCOT = {};
 			autoHeight: true,
 			autoplay: true,
 			autoplayTimeout: 10000,
-			navText: ['<span class="fa fa-long-arrow-alt-left"></span>', '<span class="fa fa-long-arrow-alt-right"></span>'],
+			navText: ['<span class="fa fa-long-arrow-alt-left"></span>', '<span class="bi bi-arrow-right"></span>'],
 			responsive: {
 				0: {
 					items: 1
@@ -139,7 +139,7 @@ var THEMEMASCOT = {};
 			autoHeight: true,
 			autoplay: true,
 			autoplayTimeout: 10000,
-			navText: ['<span class="fa fa-long-arrow-alt-left"></span>', '<span class="fa fa-long-arrow-alt-right"></span>'],
+			navText: ['<span class="fa fa-long-arrow-alt-left"></span>', '<span class="bi bi-arrow-right"></span>'],
 			responsive: {
 				0: {
 					items: 1
@@ -171,7 +171,7 @@ var THEMEMASCOT = {};
 			nav: true,
 			smartSpeed: 400,
 			autoplay: true,
-			navText: ['<span class="flaticon-left"></span>', '<span class="flaticon-right"></span>'],
+			navText: ['<span class="bi bi-arrow-left"></span>', '<span class="bi bi-arrow-right"></span>'],
 			responsive: {
 				0: {
 					items: 1
@@ -203,7 +203,7 @@ var THEMEMASCOT = {};
 			items: 1,
 			smartSpeed: 700,
 			autoplay: 5000,
-			navText: ['<span class="flaticon-left-chevron"></span>', '<span class="flaticon-right-chevron"></span>'],
+			navText: ['<span class="bi bi-arrow-left-chevron"></span>', '<span class="bi bi-arrow-right-chevron"></span>'],
 			responsive: {
 				0: {
 					items: 1
@@ -229,7 +229,7 @@ var THEMEMASCOT = {};
 			items: 1,
 			smartSpeed: 700,
 			autoplay: 5000,
-			navText: ['<span class="flaticon-left-chevron"></span>', '<span class="flaticon-right-chevron"></span>'],
+			navText: ['<span class="bi bi-arrow-left-chevron"></span>', '<span class="bi bi-arrow-right-chevron"></span>'],
 			responsive: {
 				0: {
 					items: 1
