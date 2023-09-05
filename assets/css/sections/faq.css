@@ -150,9 +150,7 @@
     color: #ffffff;
     background-color: var(--bg-theme-color2);
   }
-  .accordion-box .block .acc-btn.active .icon:before {
-    content: "\f107";
-  }
+ 
   .accordion-box .block .acc-content {
     position: relative;
     display: none;

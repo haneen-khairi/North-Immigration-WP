@@ -1,14 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
-@import url("../library/animate.css");
-@import url("../library/owl.css");
-
-/* @import url("jquery.fancybox.min.css");
-@import url("linear.css");
-@import url("fontawesome-all.css");
-@import url("flaticon.css");
-@import url("tm-bs-mp.css");
-@import url("tm-utility-classes.css"); */
+ 
 :root {
   --theme-color1: #1a2d39;
   --theme-color2: #e42125;
@@ -69,6 +61,6 @@
   --container-width: 1200px;
   --small-container-width: 1000px;
   --large-container-width: 1550px;
-  --container-pt: 120px;
-  --container-pb: 120px;
+  --container-pt: 60px;
+  --container-pb: 60px;
 }

@@ -96,8 +96,8 @@
   --container-width: 1200px;
   --small-container-width: 1000px;
   --large-container-width: 1550px;
-  --container-pt: 120px;
-  --container-pb: 120px;
+  --container-pt: 60px;
+  --container-pb: 60px;
 }
 
 /*
@@ -314,8 +314,8 @@ iframe {
 
 section > .container,
 section > .container-fluid {
-  padding-top: var(--container-pt);
-  padding-bottom: var(--container-pt);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 @media (min-width: 1400px) {
@@ -3423,7 +3423,7 @@ Section Title
 .features-section-five {
   position: relative;
   background-color: var(--bg-theme-color1);
-  padding: 120px 0;
+  padding: 80px 0;
 }
 .features-section-five::before {
   position: absolute;
@@ -3943,7 +3943,7 @@ Section Title
 }
 .about-section-four .content-column .inner-column {
   position: relative;
-  padding: 120px 0;
+  padding: 80px 0;
 }
 .about-section-four .content-column .sec-title {
   margin-bottom: 40px;
@@ -4254,7 +4254,7 @@ Section Title
 ***/
 .countries-section {
   position: relative;
-  padding: 120px 0;
+  padding: 80px 0;
   z-index: 2;
 }
 .countries-section .bg-layer {
@@ -4364,7 +4364,7 @@ Section Title
 ***/
 .countries-section-two {
   position: relative;
-  padding: 120px 0;
+  padding: 80px 0;
 }
 .countries-section-two .bg-image {
   position: absolute;
@@ -4467,7 +4467,7 @@ Section Title
   z-index: 4;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 120px 0;
+  padding: 80px 0;
 }
 .countries-section-three .bottom-text {
   position: relative;
@@ -5581,7 +5581,7 @@ Section Title
 ***/
 .gallery-section {
   position: relative;
-  padding: 120px 0;
+  padding: 80px 0;
   z-index: 1;
   background-color: transparent;
 }
@@ -5668,7 +5668,7 @@ Section Title
 ***/
 .gallery-section-two {
   position: relative;
-  padding: 120px 0;
+  padding: 80px 0;
   z-index: 1;
 }
 
@@ -5872,7 +5872,7 @@ Section Title
 ***/
 .why-choose-us-two {
   position: relative;
-  padding: 120px 0;
+  padding: 80px 0;
   background-color: var(--bg-theme-color4);
 }
 .why-choose-us-two .bg-layer {
@@ -6007,7 +6007,7 @@ Section Title
 ***/
 .why-choose-us-three {
   position: relative;
-  padding: 120px 0;
+  padding: 80px 0;
 }
 .why-choose-us-three .icon-object-1 {
   right: -340px;
@@ -6157,7 +6157,7 @@ Section Title
 ***/
 .training-section {
   position: relative;
-  padding: 120px 0;
+  padding: 80px 0;
 }
 .training-section .bg-layer {
   position: absolute;
@@ -6483,7 +6483,7 @@ Section Title
 ***/
 .training-section-three {
   position: relative;
-  padding: 120px 0;
+  padding: 80px 0;
 }
 .training-section-three .carousel-outer {
   margin: 0 -200px;
@@ -9078,7 +9078,7 @@ Section Title
 ***/
 .products-section {
   position: relative;
-  padding: 120px 0;
+  padding: 80px 0;
 }
 
 .products-section .bg-image {
@@ -10042,7 +10042,7 @@ Page Title
   top: 0;
   height: 100%;
   width: 100%;
-  background: #131313;
+  background: #13131361;
   opacity: 0.8;
   content: "";
 }

@@ -1,0 +1,9 @@
+.country-details__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.country-details__img img{
+    height: fit-content;
+    max-height: 500px;
+}
