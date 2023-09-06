@@ -18,3 +18,65 @@
 padding:10px 5px;
 text-align: center;
 }
+.country-list-main {
+    background-color: #192e39; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px grey
+}
+
+.country-list-visa {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 50px
+}
+.country-list-main .title-head h2{
+color:#fff;
+text-align: center;
+font-size:2rem;
+}
+.country-visa h4 {
+    color: #fff;
+    font-size: 24px;
+    text-align: start
+}
+
+.country-visa h5 {
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: start
+}
+
+.country-visa h5:last-child {
+    margin: 20px 0;
+    color: #b6b6b6
+}
+.internal-icon{
+    height:80px;
+    width:80px;
+    filter: invert(1);
+}
+.icon-items-list
+{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px grey
+} 
+.icon-items-list p{
+    color:#fff; 
+    padding: 10px 50px;
+}
+.flag-icon-mini{
+    width:60px;
+    height:60px;
+}
+.country-block-three .inner-box { 
+    height: 100%;
+}
