@@ -7,3 +7,14 @@
     height: fit-content;
     max-height: 500px;
 }
+.icon-items-list{
+    background-color: #1a2d39;
+    padding:5px 20px;
+}
+.icon-items-list p{
+    margin-bottom: 0px;
+}
+.icon-items-list .list{
+padding:10px 5px;
+text-align: center;
+}
